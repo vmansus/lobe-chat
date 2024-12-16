@@ -162,6 +162,11 @@ const nextConfig = {
       permanent: true,
       source: '/settings',
     },
+    {
+      destination: '/chat',
+      permanent: true,
+      source: '/welcome',
+    },
   ],
 
   rewrites: async () => [
